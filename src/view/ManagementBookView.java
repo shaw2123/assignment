@@ -111,7 +111,7 @@ public class ManagementBookView {
         System.out.println("Không tìm thấy sách với ID " + id);
     }
 
-    public static void searchCustomer(String[] args) {
+    public static void searchBook(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
 
